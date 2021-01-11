@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<html lang="en">
+	<meta charset="utf-8">	
+	<link rel="stylesheet" href="CSSsmart.css">
+	<script src="mainM.js"></script>
+	<title>2Fast2Catch</title>
+	<style>
+		body{font-size: 15px; font-weight: normal;}
+		.inner_main_menu ul{margin: 0 auto; width: 1170px;}
+		.inner_main_menu ul{margin: 0; padding: 0; list-style: none;text-align: right;}
+		.inner_main_menu ul li{float: none; display: inline-block;}
+		.inner_main_menu ul li:nth-child(1){float: left;}
+		.inner_main_menu ul li:nth-child(2){float: left;}
+		.inner_main_menu ul li:nth-child(3){float: left;}
+		.inner_main_menu ul li a{color: #808080; font-size: 20px; text-transform: uppercase; text-decoration: none; display: block; padding: 10px 20px; font-family: Stencil Std, fantasy;}	  }
+		.inner_main_menu ul li a:hover {color: red;}
+		#main_menu{width: 100%;position: relative;}
+		.logo_area{width: 300px;height: 300px;position: absolute; left: 50%;top: 0;content: "";margin-left: -150px;}
+	</style>
+	
+</head>
+
+<body background= "https://images6.alphacoders.com/111/1114607.jpg">
+	<div id="main_menu">
+		<div class="logo_area">
+			<a href=""><img src="red_one.png"></a>
+		</div>
+		<div class="inner_main_menu">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Details</a></li>
+				<li><a href="">Deals</a></li>
+				<li><a href="">Carshop</a></li>
+				<li><a href="">Track</a></li>
+
+			</ul>
+			
+		</div>
+	</div>
+
+	<p id="text2">Everything you need to know about Supercars</p>
+	<a href="https://www.youtube.com/watch?v=Noo0YfdbxaM" target="_blank"><img id="img1"src="motorTrend.jpg" width="500"></a>
+	<p id="specs2">According to everything we could find on the web, a supercar is a vehicle in “the top range of today’s performance cars.” It’s not a rigid designation, but it is commonly understood to mean a car with vastly superior performance, technology and design. Usually bearing a price tag from the low-six to high-six figures (in US dollars).
+
+The “performance” angle distinguishes a supercar from top-of-the-line luxury marques like Bentley, Maybach and Rolls Royce. They’re expensive and ultra-luxurious – but they’re not supercars.
+
+A hypercar is the top one percent of supercars. Meaning, they have the best performance and design in the world, and their sales price is going to be over seven figures (in US dollars).
+ </p>
+	<p id="text3"> Top #3 Fastest cars of 2020 </p>	
+    <p id= "text4">#3 Ford GT</p>
+    <a href="https://www.youtube.com/watch?v=WkaVLUPFUfs"><img  id= "img3"src="fordGT.jpg" width="500"></a>
+    <button id="btn">Show Specs</button>
+    <p id="specs1">The myth and mystique of the Ford GT, stretching back more than five decades to the GT40’s string of successive victories at Le Mans, would have given this car a larger-than-life presence in any class in which we put it – and lends it an appeal that’s utterly unique and difficult to quantify. although it doesn’t howl like an Italian V12, its 647bhp V6 can still hurl you down the road with undiluted motorsport venom. A very special car, this, the likes of which don’t come along often.</p>
+<script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+<script>
+	$(document).ready(function(){
+		$("#btn").on('click',function(){
+			$("#specs1").toggle();
+		});
+	});
+</script>
+</body>
+
+
+</html>
