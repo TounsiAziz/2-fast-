@@ -1,25 +1,53 @@
 
 #text2 {
 	color: #660000;
-	font-size: 30px;
+	font-size: 40px;
 	font-family:  Stencil Std, fantasy;
 	font-weight: normal;
 	position: center; 
+
 }
 #text3 {
 	color: #660000;
 	font-size: 50px;
 	font-family: Stencil Std, fantasy;
 	font-weight: normal;
-	margin-right: 880px;
+
 }
 #text4 {
 	 color:  #808080;
 	 font-size: 30px;
 	 font-family: Stencil Std, fantasy;
 	 font-weight: normal;
-	 margin-right: 880px
+
 }
+#text6 {
+	color:  #808080;
+	 font-size: 30px;
+	 font-family: Stencil Std, fantasy;
+	 font-weight: normal;
+	 padding-top: 100px;
+	 
+}
+#text8 {
+	color:  #808080;
+	 font-size: 30px;
+	 font-family: Stencil Std, fantasy;
+	 font-weight: normal;
+	
+}
+#text10 {
+	color:  #808080;
+	 font-size: 30px;
+	 font-family: Stencil Std, fantasy;
+	 font-weight: normal;
+	 padding-top: 100px;
+	 position: relative;
+	 margin-left: 580px;
+	 top: 50vh;
+	 right:40vh;
+}
+
 
 h1{
 	color: black;
@@ -33,7 +61,6 @@ h1{
 
 }
 #img1 {
-	margin-right: 100px;
 	border : 3px solid #808080;
 }
 #img2 {
@@ -41,15 +68,28 @@ h1{
 	border : 3px solid #808080;
 }
 #img3 {
-	margin-right: 880px;
 	border : 3px solid #808080;
+	height: 300px;
+	margin-left: 500px;
+}
+#img4 {
+	border : 3px solid #808080;
+	height: 300px;
+	margin-left: 478px;
+}
+#img5 {
+	border : 3px solid #808080;
+	height: 450px;
+	margin-left: 360px;
+	position: absolute;
+
+
 }
 #specs1 {
 	color:  #808080;
-	 font-size: 20px;
-	 font-family: Stencil Std, fantasy;
-	 font-weight: normal;
-	 margin-right: 880px
+    font-size: 20px;
+    font-family: Stencil Std, fantasy;
+   position: center;
 }
 #specs2 {
 	color:  #808080;
@@ -59,13 +99,68 @@ h1{
 	 margin-left: 10px;
 
 }
+#specs3 {
+	color:  #808080;
+    font-size: 20px;
+    font-family: Stencil Std, fantasy;
+   position: center;
+}
+#specs4 {
+
+	color:  #808080;
+    font-size: 20px;
+    font-family: Stencil Std, fantasy;
+   position: absolute;
+   
+
+}
 #btn{
-	margin-right: 450px;
-	position: center;
-	background-color: #808080;
+	margin: 310px 18px 0px -99px;
+    position: absolute;	
+    background-color: #808080;
 	color: black;
 	font-family: Stencil Std, fantasy;  
 }
+#image{
+	    position: absolute;
+}
+#text5{
+    padding-top: 350px;
+}
+#image1 {
+	position: absolute;
+}
+#image2 {
+	position: absolute;
+}
+#text7 {
+	padding-top: 350px;
+}
+
+#main_menu{
+	display: flex;
+	justify-content: space-around;
+}
+#bbs{
+	color: black;
+	font-family: Stencil Std, fantasy;
+	background-color: #808080;
+	margin : -270px;
+
+	
+ }
+#but{
+	color: black;
+	font-family: Stencil Std, fantasy;
+	background-color: #808080;
+	right: -125vh;
+	top:54vh;
+ } 
+ 
+
+
+
+
 
 
 
